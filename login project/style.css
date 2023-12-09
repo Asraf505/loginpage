@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    width: 100vw;
+   height: 100vh; 
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Montserrat', sans-serif;
+   border: 2px solid;
+}
+main{
+    width: 80%;
+}
+.head{
+    padding-bottom: 12px;
+    
+}
+h1{
+font-size: 25px;
+padding-bottom: 3px;
+font-weight: 800;
+color: blue;
+letter-spacing: 0.8px;
+}
+h3{
+font-size: 15px;
+font-weight: 400;
+color: blue;}
+.otp input
+{
+    width: 40px;
+    padding: 5px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    border-color: blue;
+    border-radius: 8px;
+    margin-top: 6px;
+    outline: none;
+    text-align: center;
+    font-weight: 600;
+    color: blue;
+}
+.otp input:active,.otp input:hover{
+    background-color: blue;
+    color: white;
+    
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid blue;
+    gap: 8px;
+    width: 105%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left:10px;
+    border-radius: 5px;
+}
+.gg{
+    color: blue;
+}
+.data input{
+    border: none;
+    font-size: 14px;
+    height: 35px;
+    outline: none;
+    font-weight: 400;
+    color: blue;
+    font-family: 'Montserrat', sans-serif ;
+    text-transform: capitalize;
+}
+.login{
+    width: 100%;
+    text-align: center;
+}
+.login button{
+    border: 2px solid blue;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 600;
+    color: blue;
+    text-transform: uppercase;
+    padding: 8px;
+    width: 50%;
+    border-radius: 10px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+.login button:hover:focus{
+       background-color: blue;
+       color: white;
+}
+.login button:active{
+    width: 52%;
+}
+.header-two{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.down-con{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.fp{
+    font-size: 11px;
+    color: rgba(0, 0, 255, 0.877);
+    margin-top: 10px;
+}
+p{
+    margin-top: 14px;
+    color: rgb(0, 0, 255);
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 11px;
+}
+.header-three{
+    font-size: 1rem; 
+    position: absolute; 
+    bottom: 80px; 
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-three button{
+    border: 3px solid blue;
+    border-radius: 40px;
+    font-size: 25px;
+    padding: 8px;
+    color: blue;
+}
+.header-three button:hover:focus{
+    background-color: blue;
+    color: white;
+}
+
+
+.lw{
+    border: none;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.bottom{
+    font-size: 12px;
+}
+.bottom a{
+  font-size: 14px;
+  font-weight: 600;
+}
+.newpass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.newpass input{
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    border-color: blue;
+    border-radius: 8px;
+    margin-top: 6px;
+    outline: none;
+    font-weight: 500;
+    color: blue;
+}
+.tick{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
